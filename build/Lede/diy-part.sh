@@ -6,7 +6,6 @@
 
 # 添加插件
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo "src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> feeds.conf.default
 
 # 后台IP设置
 export Ipv4_ipaddr="10.1.1.3"            # 修改openwrt后台地址(填0为关闭)
