@@ -5,7 +5,8 @@
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
 # 添加插件
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+# echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git mihomo https://github.com/morytyann/OpenWrt-mihomo' >> feeds.conf.default
 
 # 后台IP设置
 export Ipv4_ipaddr="10.1.1.3"            # 修改openwrt后台地址(填0为关闭)
